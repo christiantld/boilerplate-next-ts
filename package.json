@@ -9,7 +9,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": [
+    "src/**/*": [
       "yarn lint --fix"
     ]
   },
